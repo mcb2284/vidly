@@ -1,10 +1,14 @@
-import './App.css';
-import Movies from './componets/movies';
+import "./App.css";
+import Movies from "./componets/movies";
 
 function App() {
   return (
     <main className="container">
-      <Movies/>
+      <script
+        src="https://kit.fontawesome.com/7cf4a09853.js"
+        crossorigin="anonymous"
+      ></script>
+      <Movies />
     </main>
   );
 }
